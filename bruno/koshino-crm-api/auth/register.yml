@@ -1,0 +1,25 @@
+info:
+  name: register
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: "{{kCrmBaseUrl}}/auth/register/"
+  body:
+    type: json
+    data: |-
+      {
+        "email": "m@gmail.com",
+        "password": "Msa11255",
+        "first_name": "mostafa",
+        "organization_name":"Koshino"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

@@ -1,0 +1,193 @@
+{
+    "common": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "create": "Create",
+        "search": "Search",
+        "filter": "Filter",
+        "loading": "Loading…",
+        "retry": "Retry",
+        "error": "Something went wrong",
+        "back": "Back"
+    },
+    "nav": {
+        "dashboard": "Dashboard",
+        "deals": "Deals",
+        "companies": "Companies",
+        "contacts": "Contacts",
+        "leads": "Leads",
+        "tasks": "Tasks",
+        "projects": "Projects",
+        "invoices": "Invoices",
+        "settings": "Settings"
+    },
+    "auth": {
+        "welcome": "Welcome back",
+        "subtitle": "Sign in to your Koshino CRM account",
+        "login": "Sign in",
+        "register": "Create account",
+        "logout": "Log out",
+        "email": "Email",
+        "password": "Password",
+        "confirm_password": "Confirm password",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "org_name": "Workspace name",
+        "no_account": "Don't have an account?",
+        "have_account": "Already have an account?",
+        "google_login": "Continue with Google",
+        "or": "or",
+        "forgot_password": "Forgot password?",
+        "register_title": "Create your workspace",
+        "register_subtitle": "Get started in under a minute"
+    },
+    "layout": {
+        "theme": "Theme",
+        "light": "Light",
+        "dark": "Dark",
+        "language": "Language",
+        "profile": "Profile",
+        "settings": "Settings",
+        "account": "Account",
+        "collapse": "Collapse",
+        "expand": "Expand"
+    },
+    "deals": {
+        "subtitle": "Track your sales pipeline",
+        "new": "New deal",
+        "empty": "No deals yet",
+        "form": {
+            "title": "Title",
+            "company": "Company",
+            "amount": "Amount",
+            "currency": "Currency",
+            "expected_close": "Expected close",
+            "probability": "Probability %",
+            "create": "Create deal",
+            "cancel": "Cancel",
+            "select_company": "— Select company —",
+            "company_name": "Company name",
+            "saving": "Saving…",
+            "save": "Save",
+            "title_required": "Title is required",
+            "company_required": "Company is required",
+            "no_pipeline": "No pipeline available"
+        },
+        "detail": {
+            "company": "Company",
+            "amount": "Amount",
+            "stage": "Stage",
+            "status": "Status",
+            "probability": "Probability",
+            "expected_close": "Expected close",
+            "contact": "Contact",
+            "owner": "Owner"
+        },
+        "stages": {
+            "qualified": "Qualified",
+            "proposal": "Proposal",
+            "negotiation": "Negotiation",
+            "won": "Won",
+            "lost": "Lost"
+        }
+    },
+    "companies": {
+        "subtitle": "Manage your client organizations",
+        "new": "New company",
+        "edit_title": "Edit company",
+        "search_placeholder": "Search companies…",
+        "empty": "No companies yet",
+        "delete_confirm": "Delete \"{name}\"? This cannot be undone.",
+        "columns": {
+            "name": "Name",
+            "industry": "Industry",
+            "email": "Email",
+            "phone": "Phone",
+            "contacts": "Contacts"
+        },
+        "form": {
+            "name": "Name",
+            "name_required": "Name is required",
+            "industry": "Industry",
+            "website": "Website",
+            "phone": "Phone",
+            "email": "Email",
+            "address": "Address",
+            "city": "City",
+            "country": "Country",
+            "notes": "Notes"
+        }
+    },
+    "contacts": {
+        "subtitle": "People at your client companies",
+        "new": "New contact",
+        "edit_title": "Edit contact",
+        "search_placeholder": "Search contacts…",
+        "empty": "No contacts yet",
+        "delete_confirm": "Delete \"{name}\"? This cannot be undone.",
+        "columns": {
+            "name": "Name",
+            "company": "Company",
+            "email": "Email",
+            "phone": "Phone",
+            "primary": "Primary"
+        },
+        "form": {
+            "first_name": "First name",
+            "first_name_required": "First name is required",
+            "last_name": "Last name",
+            "email": "Email",
+            "phone": "Phone",
+            "position": "Position",
+            "company": "Company",
+            "no_company": "— No company —",
+            "is_primary": "Primary contact"
+        }
+    },
+    "leads": {
+        "subtitle": "Potential customers",
+        "new": "New lead",
+        "edit_title": "Edit lead",
+        "search_placeholder": "Search leads…",
+        "empty": "No leads yet",
+        "delete_confirm": "Delete \"{name}\"? This cannot be undone.",
+        "columns": {
+            "title": "Title",
+            "company": "Company",
+            "source": "Source",
+            "status": "Status"
+        },
+        "form": {
+            "title": "Title",
+            "title_required": "Title is required",
+            "source": "Source",
+            "status": "Status",
+            "company": "Company",
+            "no_company": "— No company —",
+            "notes": "Notes"
+        },
+        "sources": {
+            "web": "Web",
+            "referral": "Referral",
+            "social": "Social",
+            "event": "Event",
+            "cold_call": "Cold call",
+            "other": "Other"
+        },
+        "statuses": {
+            "new": "New",
+            "contacted": "Contacted",
+            "qualified": "Qualified",
+            "unqualified": "Unqualified"
+        },
+        "convert": {
+            "title": "Convert lead to deal",
+            "subtitle": "Create a deal for \"{title}\".",
+            "pipeline": "Pipeline",
+            "confirm": "Convert",
+            "no_pipeline": "Select a pipeline first"
+        }
+    }
+}

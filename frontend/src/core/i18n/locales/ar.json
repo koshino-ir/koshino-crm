@@ -1,0 +1,193 @@
+{
+    "common": {
+        "save": "حفظ",
+        "cancel": "إلغاء",
+        "delete": "حذف",
+        "edit": "تعديل",
+        "create": "إنشاء",
+        "search": "بحث",
+        "filter": "تصفية",
+        "loading": "جار التحميل…",
+        "retry": "حاول مجددًا",
+        "error": "حدث خطأ",
+        "back": "رجوع"
+    },
+    "nav": {
+        "dashboard": "لوحة التحكم",
+        "deals": "الصفقات",
+        "companies": "الشركات",
+        "contacts": "جهات الاتصال",
+        "leads": "العملاء المحتملون",
+        "tasks": "المهام",
+        "projects": "المشاريع",
+        "invoices": "الفواتير",
+        "settings": "الإعدادات"
+    },
+    "auth": {
+        "welcome": "مرحبًا بعودتك",
+        "subtitle": "سجّل الدخول إلى حساب Koshino CRM",
+        "login": "تسجيل الدخول",
+        "register": "إنشاء حساب",
+        "logout": "تسجيل الخروج",
+        "email": "البريد الإلكتروني",
+        "password": "كلمة المرور",
+        "confirm_password": "تأكيد كلمة المرور",
+        "first_name": "الاسم الأول",
+        "last_name": "اسم العائلة",
+        "org_name": "اسم المؤسسة",
+        "no_account": "ليس لديك حساب؟",
+        "have_account": "لديك حساب بالفعل؟",
+        "google_login": "المتابعة عبر Google",
+        "or": "أو",
+        "forgot_password": "هل نسيت كلمة المرور؟",
+        "register_title": "أنشئ مساحة عملك",
+        "register_subtitle": "ابدأ في أقل من دقيقة"
+    },
+    "layout": {
+        "theme": "السمة",
+        "light": "فاتح",
+        "dark": "داكن",
+        "language": "اللغة",
+        "profile": "الملف الشخصي",
+        "settings": "الإعدادات",
+        "account": "الحساب",
+        "collapse": "طي",
+        "expand": "توسيع"
+    },
+    "deals": {
+        "subtitle": "تتبع خط أنابيب المبيعات",
+        "new": "صفقة جديدة",
+        "empty": "لا توجد صفقات بعد",
+        "form": {
+            "title": "العنوان",
+            "company": "الشركة",
+            "amount": "المبلغ",
+            "currency": "العملة",
+            "expected_close": "تاريخ الإغلاق المتوقع",
+            "probability": "الاحتمال ٪",
+            "create": "إنشاء صفقة",
+            "cancel": "إلغاء",
+            "select_company": "— اختر شركة —",
+            "company_name": "اسم الشركة",
+            "saving": "جارٍ الحفظ…",
+            "save": "حفظ",
+            "title_required": "العنوان مطلوب",
+            "company_required": "الشركة مطلوبة",
+            "no_pipeline": "لا يوجد خط أنابيب"
+        },
+        "detail": {
+            "company": "الشركة",
+            "amount": "المبلغ",
+            "stage": "المرحلة",
+            "status": "الحالة",
+            "probability": "الاحتمال",
+            "expected_close": "الإغلاق المتوقع",
+            "contact": "جهة الاتصال",
+            "owner": "المالك"
+        },
+        "stages": {
+            "qualified": "مؤهل",
+            "proposal": "عرض",
+            "negotiation": "تفاوض",
+            "won": "مكسوبة",
+            "lost": "خاسرة"
+        }
+    },
+    "companies": {
+        "subtitle": "إدارة مؤسسات العملاء",
+        "new": "شركة جديدة",
+        "edit_title": "تعديل الشركة",
+        "search_placeholder": "بحث في الشركات…",
+        "empty": "لا توجد شركات بعد",
+        "delete_confirm": "هل تريد حذف «{name}»؟ لا يمكن التراجع.",
+        "columns": {
+            "name": "الاسم",
+            "industry": "القطاع",
+            "email": "البريد الإلكتروني",
+            "phone": "الهاتف",
+            "contacts": "جهات الاتصال"
+        },
+        "form": {
+            "name": "الاسم",
+            "name_required": "الاسم مطلوب",
+            "industry": "القطاع",
+            "website": "الموقع الإلكتروني",
+            "phone": "الهاتف",
+            "email": "البريد الإلكتروني",
+            "address": "العنوان",
+            "city": "المدينة",
+            "country": "الدولة",
+            "notes": "ملاحظات"
+        }
+    },
+    "contacts": {
+        "subtitle": "الأشخاص في شركات العملاء",
+        "new": "جهة اتصال جديدة",
+        "edit_title": "تعديل جهة الاتصال",
+        "search_placeholder": "بحث في جهات الاتصال…",
+        "empty": "لا توجد جهات اتصال بعد",
+        "delete_confirm": "هل تريد حذف «{name}»؟ لا يمكن التراجع.",
+        "columns": {
+            "name": "الاسم",
+            "company": "الشركة",
+            "email": "البريد",
+            "phone": "الهاتف",
+            "primary": "أساسي"
+        },
+        "form": {
+            "first_name": "الاسم الأول",
+            "first_name_required": "الاسم الأول مطلوب",
+            "last_name": "اسم العائلة",
+            "email": "البريد",
+            "phone": "الهاتف",
+            "position": "المنصب",
+            "company": "الشركة",
+            "no_company": "— بدون شركة —",
+            "is_primary": "جهة الاتصال الأساسية"
+        }
+    },
+    "leads": {
+        "subtitle": "العملاء المحتملون",
+        "new": "عميل محتمل جديد",
+        "edit_title": "تعديل العميل المحتمل",
+        "search_placeholder": "بحث في العملاء المحتملين…",
+        "empty": "لا يوجد عملاء محتملون بعد",
+        "delete_confirm": "هل تريد حذف «{name}»؟ لا يمكن التراجع.",
+        "columns": {
+            "title": "العنوان",
+            "company": "الشركة",
+            "source": "المصدر",
+            "status": "الحالة"
+        },
+        "form": {
+            "title": "العنوان",
+            "title_required": "العنوان مطلوب",
+            "source": "المصدر",
+            "status": "الحالة",
+            "company": "الشركة",
+            "no_company": "— بدون شركة —",
+            "notes": "ملاحظات"
+        },
+        "sources": {
+            "web": "الويب",
+            "referral": "إحالة",
+            "social": "وسائل التواصل",
+            "event": "حدث",
+            "cold_call": "اتصال بارد",
+            "other": "أخرى"
+        },
+        "statuses": {
+            "new": "جديد",
+            "contacted": "تم التواصل",
+            "qualified": "مؤهل",
+            "unqualified": "غير مؤهل"
+        },
+        "convert": {
+            "title": "تحويل العميل المحتمل إلى صفقة",
+            "subtitle": "إنشاء صفقة لـ «{title}».",
+            "pipeline": "خط الأنابيب",
+            "confirm": "تحويل",
+            "no_pipeline": "اختر خط أنابيب أولاً"
+        }
+    }
+}

@@ -1,0 +1,102 @@
+/* --- Fonts: self-hosted, loaded from @fontsource --- */
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/vazirmatn";
+
+/* --- Tailwind v4 core --- */
+@import "tailwindcss";
+
+/* --- Dark mode via class on <html> --- */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* --- Design tokens --- */
+@theme {
+    /* Brand colors (indigo) */
+    --color-primary-50: #eef2ff;
+    --color-primary-100: #e0e7ff;
+    --color-primary-200: #c7d2fe;
+    --color-primary-300: #a5b4fc;
+    --color-primary-400: #818cf8;
+    --color-primary-500: #6366f1;
+    --color-primary-600: #4f46e5;
+    --color-primary-700: #4338ca;
+    --color-primary-800: #3730a3;
+    --color-primary-900: #312e81;
+    --color-primary-950: #1e1b4b;
+
+    /* Accent (violet) */
+    --color-accent-400: #a78bfa;
+    --color-accent-500: #8b5cf6;
+    --color-accent-600: #7c3aed;
+    --color-accent-700: #6d28d9;
+
+    /* Semantic */
+    --color-success: #10b981;
+    --color-warning: #f59e0b;
+    --color-danger: #f43f5e;
+    --color-info: #0ea5e9;
+
+    /* Typography — order matters: Latin first, Persian next, Arabic last */
+    --font-sans: "Inter Variable", "Vazirmatn Variable", ui-sans-serif, system-ui,
+        "Noto Sans Arabic", "Segoe UI", sans-serif;
+
+    /* Radius scale */
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    --radius-2xl: 1.25rem;
+
+    /* Shadows tuned for indigo tint */
+    --shadow-sm: 0 1px 2px 0 rgba(15, 23, 42, 0.06);
+    --shadow-md: 0 4px 12px -2px rgba(79, 70, 229, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.06);
+    --shadow-lg: 0 12px 32px -4px rgba(79, 70, 229, 0.12), 0 4px 8px -4px rgba(15, 23, 42, 0.06);
+}
+
+/* --- Base layer --- */
+@layer base {
+    html {
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    }
+
+    body {
+        @apply bg-slate-50 text-slate-900;
+    }
+
+    .dark body {
+        @apply bg-slate-950 text-slate-100;
+    }
+
+    /* Proper numbers everywhere (avoid Persian digits in inputs by default) */
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+
+    /* Focus ring that works in both themes */
+    :focus-visible {
+        @apply outline-2 outline-offset-2 outline-primary-500;
+    }
+}
+
+/* --- RTL helpers (logical properties are preferred, but sometimes you need these) --- */
+@layer utilities {
+    .flip-x {
+        transform: scaleX(-1);
+    }
+
+    [dir="rtl"] .flip-x {
+        transform: none;
+    }
+
+    [dir="ltr"] .flip-x {
+        transform: scaleX(-1);
+    }
+}

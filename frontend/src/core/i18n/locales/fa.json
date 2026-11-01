@@ -1,0 +1,193 @@
+{
+    "common": {
+        "save": "ذخیره",
+        "cancel": "انصراف",
+        "delete": "حذف",
+        "edit": "ویرایش",
+        "create": "ایجاد",
+        "search": "جستجو",
+        "filter": "فیلتر",
+        "loading": "در حال بارگذاری…",
+        "retry": "تلاش دوباره",
+        "error": "خطایی رخ داد",
+        "back": "بازگشت"
+    },
+    "nav": {
+        "dashboard": "داشبورد",
+        "deals": "معاملات",
+        "companies": "شرکت‌ها",
+        "contacts": "مخاطبین",
+        "leads": "سرنخ‌ها",
+        "tasks": "کارها",
+        "projects": "پروژه‌ها",
+        "invoices": "فاکتورها",
+        "settings": "تنظیمات"
+    },
+    "auth": {
+        "welcome": "خوش آمدید",
+        "subtitle": "به حساب کوشینو CRM خود وارد شوید",
+        "login": "ورود",
+        "register": "ساخت حساب",
+        "logout": "خروج",
+        "email": "ایمیل",
+        "password": "رمز عبور",
+        "confirm_password": "تکرار رمز عبور",
+        "first_name": "نام",
+        "last_name": "نام خانوادگی",
+        "org_name": "نام سازمان",
+        "no_account": "حساب ندارید؟",
+        "have_account": "حساب دارید؟",
+        "google_login": "ادامه با گوگل",
+        "or": "یا",
+        "forgot_password": "فراموشی رمز عبور؟",
+        "register_title": "سازمان خود را بسازید",
+        "register_subtitle": "در کمتر از یک دقیقه شروع کنید"
+    },
+    "layout": {
+        "theme": "پوسته",
+        "light": "روشن",
+        "dark": "تاریک",
+        "language": "زبان",
+        "profile": "پروفایل",
+        "settings": "تنظیمات",
+        "account": "حساب",
+        "collapse": "جمع کردن",
+        "expand": "باز کردن"
+    },
+    "deals": {
+        "subtitle": "خط فروش خود را پیگیری کنید",
+        "new": "معامله جدید",
+        "empty": "هنوز معامله‌ای وجود ندارد",
+        "form": {
+            "title": "عنوان",
+            "company": "شرکت",
+            "amount": "مبلغ",
+            "currency": "واحد پول",
+            "expected_close": "تاریخ بستن احتمالی",
+            "probability": "احتمال (٪)",
+            "create": "ایجاد معامله",
+            "cancel": "انصراف",
+            "select_company": "— انتخاب شرکت —",
+            "company_name": "نام شرکت",
+            "saving": "در حال ذخیره…",
+            "save": "ذخیره",
+            "title_required": "عنوان الزامی است",
+            "company_required": "شرکت الزامی است",
+            "no_pipeline": "خط فروشی موجود نیست"
+        },
+        "detail": {
+            "company": "شرکت",
+            "amount": "مبلغ",
+            "stage": "مرحله",
+            "status": "وضعیت",
+            "probability": "احتمال",
+            "expected_close": "تاریخ بستن",
+            "contact": "مخاطب",
+            "owner": "مالک"
+        },
+        "stages": {
+            "qualified": "واجد شرایط",
+            "proposal": "پیشنهاد",
+            "negotiation": "در حال مذاکره",
+            "won": "برنده",
+            "lost": "از دست رفته"
+        }
+    },
+    "companies": {
+        "subtitle": "سازمان‌های مشتری خود را مدیریت کنید",
+        "new": "شرکت جدید",
+        "edit_title": "ویرایش شرکت",
+        "search_placeholder": "جستجوی شرکت‌ها…",
+        "empty": "هنوز شرکتی ثبت نشده",
+        "delete_confirm": "«{name}» حذف شود؟ این عمل قابل بازگشت نیست.",
+        "columns": {
+            "name": "نام",
+            "industry": "صنعت",
+            "email": "ایمیل",
+            "phone": "تلفن",
+            "contacts": "مخاطبین"
+        },
+        "form": {
+            "name": "نام",
+            "name_required": "نام الزامی است",
+            "industry": "صنعت",
+            "website": "وب‌سایت",
+            "phone": "تلفن",
+            "email": "ایمیل",
+            "address": "آدرس",
+            "city": "شهر",
+            "country": "کشور",
+            "notes": "یادداشت"
+        }
+    },
+    "contacts": {
+        "subtitle": "افراد شرکت‌های مشتری",
+        "new": "مخاطب جدید",
+        "edit_title": "ویرایش مخاطب",
+        "search_placeholder": "جستجوی مخاطبین…",
+        "empty": "هنوز مخاطبی ثبت نشده",
+        "delete_confirm": "«{name}» حذف شود؟ این عمل قابل بازگشت نیست.",
+        "columns": {
+            "name": "نام",
+            "company": "شرکت",
+            "email": "ایمیل",
+            "phone": "تلفن",
+            "primary": "اصلی"
+        },
+        "form": {
+            "first_name": "نام",
+            "first_name_required": "نام الزامی است",
+            "last_name": "نام خانوادگی",
+            "email": "ایمیل",
+            "phone": "تلفن",
+            "position": "سمت",
+            "company": "شرکت",
+            "no_company": "— بدون شرکت —",
+            "is_primary": "مخاطب اصلی"
+        }
+    },
+    "leads": {
+        "subtitle": "مشتریان بالقوه",
+        "new": "سرنخ جدید",
+        "edit_title": "ویرایش سرنخ",
+        "search_placeholder": "جستجوی سرنخ‌ها…",
+        "empty": "هنوز سرنخی ثبت نشده",
+        "delete_confirm": "«{name}» حذف شود؟ این عمل قابل بازگشت نیست.",
+        "columns": {
+            "title": "عنوان",
+            "company": "شرکت",
+            "source": "منبع",
+            "status": "وضعیت"
+        },
+        "form": {
+            "title": "عنوان",
+            "title_required": "عنوان الزامی است",
+            "source": "منبع",
+            "status": "وضعیت",
+            "company": "شرکت",
+            "no_company": "— بدون شرکت —",
+            "notes": "یادداشت"
+        },
+        "sources": {
+            "web": "وب",
+            "referral": "معرفی",
+            "social": "شبکه‌های اجتماعی",
+            "event": "رویداد",
+            "cold_call": "تماس سرد",
+            "other": "سایر"
+        },
+        "statuses": {
+            "new": "جدید",
+            "contacted": "تماس گرفته شد",
+            "qualified": "واجد شرایط",
+            "unqualified": "فاقد شرایط"
+        },
+        "convert": {
+            "title": "تبدیل سرنخ به معامله",
+            "subtitle": "ایجاد یک معامله برای «{title}».",
+            "pipeline": "خط فروش",
+            "confirm": "تبدیل",
+            "no_pipeline": "ابتدا خط فروش را انتخاب کنید"
+        }
+    }
+}
