@@ -7,6 +7,7 @@ import {
   Folder,
   Kanban,
   ListChecks,
+  MessageSquare,
   Settings,
   Users,
   UserSquare2,
@@ -27,6 +28,7 @@ interface NavItem {
 const items: NavItem[] = [
   { name: "dashboard", labelKey: "nav.dashboard", icon: BarChart3 },
   { name: "deals", labelKey: "nav.deals", icon: Kanban },
+  { name: "activities", labelKey: "nav.activities", icon: MessageSquare },
   { name: "companies", labelKey: "nav.companies", icon: Building2 },
   { name: "contacts", labelKey: "nav.contacts", icon: Users },
   { name: "leads", labelKey: "nav.leads", icon: UserSquare2 },

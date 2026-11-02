@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4F46E5" />
+    <title>Koshino — Offline</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Inter", "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+            background: #f8fafc;
+            color: #0f172a;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+
+        .card {
+            max-width: 400px;
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 40px 32px;
+            text-align: center;
+            box-shadow: 0 12px 32px -4px rgba(79, 70, 229, 0.08);
+        }
+
+        .icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 16px;
+            border-radius: 16px;
+            background: #4F46E5;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 24px;
+            line-height: 1.6;
+        }
+
+        button {
+            padding: 10px 24px;
+            border-radius: 8px;
+            border: 0;
+            background: #4F46E5;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        button:hover {
+            background: #4338CA;
+        }
+
+        [dir="rtl"] .icon {
+            font-family: "Vazirmatn", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="icon">K</div>
+        <h1>اتصال قطع است</h1>
+        <p>اینترنت شما در دسترس نیست. هر وقت اتصال برقرار شد، دوباره امتحان کنید.</p>
+        <button onclick="location.reload()">تلاش دوباره</button>
+    </div>
+</body>
+
+</html>

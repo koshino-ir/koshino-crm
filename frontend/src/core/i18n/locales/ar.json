@@ -21,7 +21,8 @@
         "tasks": "المهام",
         "projects": "المشاريع",
         "invoices": "الفواتير",
-        "settings": "الإعدادات"
+        "settings": "الإعدادات",
+        "activities": "الأنشطة"
     },
     "auth": {
         "welcome": "مرحبًا بعودتك",
@@ -189,5 +190,176 @@
             "confirm": "تحويل",
             "no_pipeline": "اختر خط أنابيب أولاً"
         }
+    },
+    "dashboard": {
+        "subtitle": "نظرة شاملة على أعمالك",
+        "kpi": {
+            "open_deals": "الصفقات المفتوحة",
+            "won": "الصفقات الناجحة هذا الشهر",
+            "companies": "الشركات",
+            "leads": "العملاء المحتملون الجدد",
+            "tasks_open": "المهام المفتوحة",
+            "tasks_overdue": "المهام المتأخرة"
+        },
+        "funnel": "قمع المبيعات",
+        "funnel_total": "إجمالي الصفقات المفتوحة",
+        "revenue": "الإيرادات (آخر 6 أشهر)",
+        "recent_activities": "الأنشطة الأخيرة",
+        "empty": "لا يوجد شيء لعرضه حتى الآن"
+    },
+    "tasks": {
+        "subtitle": "تابع مهامك وأعمالك المطلوبة",
+        "new": "مهمة جديدة",
+        "edit_title": "تعديل المهمة",
+        "search_placeholder": "البحث عن المهام…",
+        "empty": "لا توجد مهام حتى الآن",
+        "delete_confirm": "هل أنت متأكد من حذف «{name}»؟",
+        "columns": {
+            "title": "العنوان",
+            "priority": "الأولوية",
+            "due": "تاريخ الاستحقاق",
+            "status": "الحالة"
+        },
+        "form": {
+            "title": "العنوان",
+            "title_required": "العنوان مطلوب",
+            "description": "الوصف",
+            "due": "تاريخ الاستحقاق",
+            "priority": "الأولوية",
+            "status": "الحالة"
+        },
+        "priorities": {
+            "low": "منخفضة",
+            "medium": "متوسطة",
+            "high": "مرتفعة",
+            "urgent": "عاجلة"
+        },
+        "statuses": {
+            "todo": "قيد الانتظار",
+            "in_progress": "قيد التنفيذ",
+            "done": "مكتملة"
+        },
+        "filters": {
+            "all": "جميع الحالات"
+        }
+    },
+    "activities": {
+        "subtitle": "جميع التفاعلات في مكان واحد",
+        "search_placeholder": "البحث عن الأنشطة…",
+        "empty": "لا توجد أنشطة حتى الآن",
+        "delete_confirm": "هل أنت متأكد من حذف هذا النشاط؟",
+        "add_hint": "أضف نشاطًا من قسم الصفقة",
+        "types": {
+            "call": "مكالمة هاتفية",
+            "email": "بريد إلكتروني",
+            "meeting": "اجتماع",
+            "note": "ملاحظة"
+        },
+        "filters": {
+            "all": "جميع الأنواع"
+        }
+    },
+    "projects": {
+        "subtitle": "المشاريع التنفيذية بعد إتمام الصفقة",
+        "new": "مشروع جديد",
+        "edit_title": "تعديل المشروع",
+        "search_placeholder": "البحث عن المشاريع…",
+        "empty": "لا توجد مشاريع حتى الآن",
+        "delete_confirm": "هل أنت متأكد من حذف «{name}»؟",
+        "columns": {
+            "name": "الاسم",
+            "client": "العميل",
+            "status": "الحالة",
+            "budget": "الميزانية",
+            "invoices": "الفواتير"
+        },
+        "form": {
+            "name": "الاسم",
+            "name_required": "الاسم مطلوب",
+            "client": "شركة العميل",
+            "client_required": "اختيار العميل مطلوب",
+            "select_client": "— اختر العميل —",
+            "status": "الحالة",
+            "budget": "الميزانية",
+            "start": "تاريخ البدء",
+            "end": "تاريخ الانتهاء",
+            "description": "الوصف"
+        },
+        "statuses": {
+            "planning": "قيد التخطيط",
+            "active": "نشط",
+            "on_hold": "معلّق",
+            "completed": "مكتمل",
+            "cancelled": "ملغى"
+        },
+        "filters": {
+            "all": "جميع الحالات"
+        }
+    },
+    "invoices": {
+        "subtitle": "إدارة فواتير مشاريعك",
+        "new": "فاتورة جديدة",
+        "edit_title": "تعديل الفاتورة",
+        "search_placeholder": "البحث عن الفواتير…",
+        "empty": "لا توجد فواتير حتى الآن",
+        "delete_confirm": "هل أنت متأكد من حذف الفاتورة «{name}»؟",
+        "mark_paid": "تحديد كمدفوعة",
+        "columns": {
+            "number": "الرقم",
+            "total": "الإجمالي",
+            "status": "الحالة",
+            "issue": "تاريخ الإصدار",
+            "due": "تاريخ الاستحقاق"
+        },
+        "filters": {
+            "all": "جميع الحالات"
+        },
+        "form": {
+            "project": "المشروع",
+            "project_required": "المشروع مطلوب",
+            "select_project": "— اختر مشروعًا —",
+            "amount": "المبلغ",
+            "amount_required": "المبلغ مطلوب",
+            "tax": "الضريبة",
+            "issue": "تاريخ الإصدار",
+            "due": "تاريخ الاستحقاق",
+            "due_after_issue": "تاريخ الاستحقاق يجب أن يكون بعد تاريخ الإصدار",
+            "notes": "ملاحظات",
+            "total": "المجموع"
+        },
+        "statuses": {
+            "draft": "مسودة",
+            "sent": "مرسلة",
+            "paid": "مدفوعة",
+            "overdue": "متأخرة",
+            "cancelled": "ملغاة"
+        }
+    },
+    "settings": {
+        "subtitle": "المؤسسة والفريق والتفضيلات",
+        "org_title": "المؤسسة",
+        "members_title": "الأعضاء",
+        "language_title": "تفضيلات اللغة",
+        "saved": "تم الحفظ",
+        "form": {
+            "name": "الاسم",
+            "timezone": "المنطقة الزمنية",
+            "currency": "العملة"
+        },
+        "roles": {
+            "owner": "المالك",
+            "admin": "المسؤول",
+            "member": "عضو"
+        }
+    },
+    "pwa": {
+        "offline": "أنت غير متصل. ستتم المزامنة عند استعادة الاتصال.",
+        "update_title": "تحديث متاح",
+        "update_message": "إصدار جديد جاهز. أعد التحميل للتطبيق.",
+        "reload": "إعادة التحميل",
+        "install_title": "تثبيت كوشينو",
+        "install_message": "أضف إلى الشاشة الرئيسية للوصول السريع.",
+        "install_button": "تثبيت",
+        "later": "لاحقاً"
     }
 }

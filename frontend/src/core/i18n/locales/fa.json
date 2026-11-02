@@ -21,7 +21,8 @@
         "tasks": "کارها",
         "projects": "پروژه‌ها",
         "invoices": "فاکتورها",
-        "settings": "تنظیمات"
+        "settings": "تنظیمات",
+        "activities": "فعالیت‌ها"
     },
     "auth": {
         "welcome": "خوش آمدید",
@@ -189,5 +190,176 @@
             "confirm": "تبدیل",
             "no_pipeline": "ابتدا خط فروش را انتخاب کنید"
         }
+    },
+    "dashboard": {
+        "subtitle": "نگاهی کلی به کسب‌وکار شما",
+        "kpi": {
+            "open_deals": "معاملات باز",
+            "won": "معاملات موفق این ماه",
+            "companies": "شرکت‌ها",
+            "leads": "سرنخ‌های جدید",
+            "tasks_open": "وظایف باز",
+            "tasks_overdue": "وظایف سررسیدگذشته"
+        },
+        "funnel": "قیف فروش",
+        "funnel_total": "مجموع معاملات باز",
+        "revenue": "درآمد (۶ ماه گذشته)",
+        "recent_activities": "فعالیت‌های اخیر",
+        "empty": "هنوز موردی برای نمایش وجود ندارد"
+    },
+    "tasks": {
+        "subtitle": "وظایف و کارهای خود را پیگیری کنید",
+        "new": "وظیفه جدید",
+        "edit_title": "ویرایش وظیفه",
+        "search_placeholder": "جستجوی وظایف…",
+        "empty": "هنوز وظیفه‌ای ثبت نشده است",
+        "delete_confirm": "آیا از حذف «{name}» مطمئن هستید؟",
+        "columns": {
+            "title": "عنوان",
+            "priority": "اولویت",
+            "due": "سررسید",
+            "status": "وضعیت"
+        },
+        "form": {
+            "title": "عنوان",
+            "title_required": "وارد کردن عنوان الزامی است",
+            "description": "توضیحات",
+            "due": "تاریخ سررسید",
+            "priority": "اولویت",
+            "status": "وضعیت"
+        },
+        "priorities": {
+            "low": "کم",
+            "medium": "متوسط",
+            "high": "زیاد",
+            "urgent": "فوری"
+        },
+        "statuses": {
+            "todo": "انجام‌نشده",
+            "in_progress": "در حال انجام",
+            "done": "انجام‌شده"
+        },
+        "filters": {
+            "all": "همه وضعیت‌ها"
+        }
+    },
+    "activities": {
+        "subtitle": "تمام تعاملات در یک مکان",
+        "search_placeholder": "جستجوی فعالیت‌ها…",
+        "empty": "هنوز فعالیتی ثبت نشده است",
+        "delete_confirm": "آیا از حذف این فعالیت مطمئن هستید؟",
+        "add_hint": "از بخش معامله اضافه کنید",
+        "types": {
+            "call": "تماس تلفنی",
+            "email": "ایمیل",
+            "meeting": "جلسه",
+            "note": "یادداشت"
+        },
+        "filters": {
+            "all": "همه انواع"
+        }
+    },
+    "projects": {
+        "subtitle": "پروژه‌های اجرایی پس از نهایی‌شدن معامله",
+        "new": "پروژه جدید",
+        "edit_title": "ویرایش پروژه",
+        "search_placeholder": "جستجوی پروژه‌ها…",
+        "empty": "هنوز پروژه‌ای ثبت نشده است",
+        "delete_confirm": "آیا از حذف «{name}» مطمئن هستید؟",
+        "columns": {
+            "name": "نام",
+            "client": "مشتری",
+            "status": "وضعیت",
+            "budget": "بودجه",
+            "invoices": "فاکتورها"
+        },
+        "form": {
+            "name": "نام",
+            "name_required": "وارد کردن نام الزامی است",
+            "client": "شرکت مشتری",
+            "client_required": "انتخاب مشتری الزامی است",
+            "select_client": "— انتخاب مشتری —",
+            "status": "وضعیت",
+            "budget": "بودجه",
+            "start": "تاریخ شروع",
+            "end": "تاریخ پایان",
+            "description": "توضیحات"
+        },
+        "statuses": {
+            "planning": "در حال برنامه‌ریزی",
+            "active": "فعال",
+            "on_hold": "متوقف‌شده",
+            "completed": "تکمیل‌شده",
+            "cancelled": "لغوشده"
+        },
+        "filters": {
+            "all": "همه وضعیت‌ها"
+        }
+    },
+    "invoices": {
+        "subtitle": "مدیریت صورت‌حساب‌های پروژه‌های شما",
+        "new": "فاکتور جدید",
+        "edit_title": "ویرایش فاکتور",
+        "search_placeholder": "جستجوی فاکتورها…",
+        "empty": "هنوز فاکتوری ثبت نشده است",
+        "delete_confirm": "آیا از حذف فاکتور «{name}» مطمئن هستید؟",
+        "mark_paid": "علامت‌گذاری به‌عنوان پرداخت‌شده",
+        "columns": {
+            "number": "شماره",
+            "total": "مبلغ کل",
+            "status": "وضعیت",
+            "issue": "تاریخ صدور",
+            "due": "سررسید"
+        },
+        "filters": {
+            "all": "همه وضعیت‌ها"
+        },
+        "form": {
+            "project": "پروژه",
+            "project_required": "پروژه الزامی است",
+            "select_project": "— انتخاب پروژه —",
+            "amount": "مبلغ",
+            "amount_required": "مبلغ الزامی است",
+            "tax": "مالیات",
+            "issue": "تاریخ صدور",
+            "due": "تاریخ سررسید",
+            "due_after_issue": "تاریخ سررسید باید بعد از تاریخ صدور باشد",
+            "notes": "یادداشت",
+            "total": "جمع کل"
+        },
+        "statuses": {
+            "draft": "پیش‌نویس",
+            "sent": "ارسال‌شده",
+            "paid": "پرداخت‌شده",
+            "overdue": "سررسیدگذشته",
+            "cancelled": "لغوشده"
+        }
+    },
+    "settings": {
+        "subtitle": "سازمان، اعضای تیم و تنظیمات دلخواه",
+        "org_title": "سازمان",
+        "members_title": "اعضا",
+        "language_title": "تنظیمات زبان",
+        "saved": "ذخیره شد",
+        "form": {
+            "name": "نام",
+            "timezone": "منطقه زمانی",
+            "currency": "واحد پول"
+        },
+        "roles": {
+            "owner": "مالک",
+            "admin": "مدیر",
+            "member": "عضو"
+        }
+    },
+    "pwa": {
+        "offline": "اتصال قطع است. تغییرات پس از وصل‌شدن همگام‌سازی می‌شوند.",
+        "update_title": "نسخه‌ی جدید موجود است",
+        "update_message": "نسخه‌ی جدیدی آماده است. برای اعمال، صفحه را بارگذاری کنید.",
+        "reload": "بارگذاری",
+        "install_title": "نصب کوشینو",
+        "install_message": "برای دسترسی سریع، به صفحه‌ی اصلی اضافه کنید.",
+        "install_button": "نصب",
+        "later": "بعداً"
     }
 }

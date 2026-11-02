@@ -21,7 +21,8 @@
         "tasks": "Tasks",
         "projects": "Projects",
         "invoices": "Invoices",
-        "settings": "Settings"
+        "settings": "Settings",
+        "activities": "Activities"
     },
     "auth": {
         "welcome": "Welcome back",
@@ -189,5 +190,176 @@
             "confirm": "Convert",
             "no_pipeline": "Select a pipeline first"
         }
+    },
+    "dashboard": {
+        "subtitle": "Your business at a glance",
+        "kpi": {
+            "open_deals": "Open deals",
+            "won": "Won this month",
+            "companies": "Companies",
+            "leads": "New leads",
+            "tasks_open": "Open tasks",
+            "tasks_overdue": "Overdue tasks"
+        },
+        "funnel": "Sales funnel",
+        "funnel_total": "Total open",
+        "revenue": "Revenue (6 months)",
+        "recent_activities": "Recent activities",
+        "empty": "Nothing to show yet"
+    },
+    "tasks": {
+        "subtitle": "Track your to-dos",
+        "new": "New task",
+        "edit_title": "Edit task",
+        "search_placeholder": "Search tasks…",
+        "empty": "No tasks yet",
+        "delete_confirm": "Delete \"{name}\"?",
+        "columns": {
+            "title": "Title",
+            "priority": "Priority",
+            "due": "Due",
+            "status": "Status"
+        },
+        "form": {
+            "title": "Title",
+            "title_required": "Title is required",
+            "description": "Description",
+            "due": "Due date",
+            "priority": "Priority",
+            "status": "Status"
+        },
+        "priorities": {
+            "low": "Low",
+            "medium": "Medium",
+            "high": "High",
+            "urgent": "Urgent"
+        },
+        "statuses": {
+            "todo": "To do",
+            "in_progress": "In progress",
+            "done": "Done"
+        },
+        "filters": {
+            "all": "All statuses"
+        }
+    },
+    "activities": {
+        "subtitle": "Every interaction in one place",
+        "search_placeholder": "Search activities…",
+        "empty": "No activities yet",
+        "delete_confirm": "Delete this activity?",
+        "add_hint": "Add from a deal",
+        "types": {
+            "call": "Call",
+            "email": "Email",
+            "meeting": "Meeting",
+            "note": "Note"
+        },
+        "filters": {
+            "all": "All types"
+        }
+    },
+    "projects": {
+        "subtitle": "Deliverables after the deal closes",
+        "new": "New project",
+        "edit_title": "Edit project",
+        "search_placeholder": "Search projects…",
+        "empty": "No projects yet",
+        "delete_confirm": "Delete \"{name}\"?",
+        "columns": {
+            "name": "Name",
+            "client": "Client",
+            "status": "Status",
+            "budget": "Budget",
+            "invoices": "Invoices"
+        },
+        "form": {
+            "name": "Name",
+            "name_required": "Name is required",
+            "client": "Client company",
+            "client_required": "Client is required",
+            "select_client": "— Select client —",
+            "status": "Status",
+            "budget": "Budget",
+            "start": "Start date",
+            "end": "End date",
+            "description": "Description"
+        },
+        "statuses": {
+            "planning": "Planning",
+            "active": "Active",
+            "on_hold": "On hold",
+            "completed": "Completed",
+            "cancelled": "Cancelled"
+        },
+        "filters": {
+            "all": "All statuses"
+        }
+    },
+    "invoices": {
+        "subtitle": "Billing for your projects",
+        "new": "New invoice",
+        "edit_title": "Edit invoice",
+        "search_placeholder": "Search invoices…",
+        "empty": "No invoices yet",
+        "delete_confirm": "Delete invoice \"{name}\"?",
+        "mark_paid": "Mark as paid",
+        "columns": {
+            "number": "Number",
+            "total": "Total",
+            "status": "Status",
+            "issue": "Issued",
+            "due": "Due"
+        },
+        "filters": {
+            "all": "All statuses"
+        },
+        "form": {
+            "project": "Project",
+            "project_required": "Project is required",
+            "select_project": "— Select project —",
+            "amount": "Amount",
+            "amount_required": "Amount is required",
+            "tax": "Tax",
+            "issue": "Issue date",
+            "due": "Due date",
+            "due_after_issue": "Due date must be on or after issue date",
+            "notes": "Notes",
+            "total": "Total"
+        },
+        "statuses": {
+            "draft": "Draft",
+            "sent": "Sent",
+            "paid": "Paid",
+            "overdue": "Overdue",
+            "cancelled": "Cancelled"
+        }
+    },
+    "settings": {
+        "subtitle": "Organization, team, and preferences",
+        "org_title": "Organization",
+        "members_title": "Members",
+        "language_title": "Language preference",
+        "saved": "Saved",
+        "form": {
+            "name": "Name",
+            "timezone": "Timezone",
+            "currency": "Currency"
+        },
+        "roles": {
+            "owner": "Owner",
+            "admin": "Admin",
+            "member": "Member"
+        }
+    },
+    "pwa": {
+        "offline": "You are offline. Changes will sync when connection returns.",
+        "update_title": "Update available",
+        "update_message": "A new version is ready. Reload to apply.",
+        "reload": "Reload",
+        "install_title": "Install Koshino",
+        "install_message": "Add to your home screen for quick access.",
+        "install_button": "Install",
+        "later": "Later"
     }
 }
