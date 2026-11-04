@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Allow: /login
+Allow: /register
+
+Disallow: /dashboard
+Disallow: /deals
+Disallow: /companies
+Disallow: /contacts
+Disallow: /leads
+Disallow: /tasks
+Disallow: /activities
+Disallow: /projects
+Disallow: /invoices
+Disallow: /settings
+Disallow: /auth
+Disallow: /api/
+Disallow: /admin/
+
+Sitemap: https://crm.koshino.ir/sitemap.xml

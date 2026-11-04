@@ -6,7 +6,7 @@ import { useAuthStore } from "@/core/stores/auth"
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        { path: "/", redirect: "/dashboard" },
+        { path: "/", name: "landing", component: () => import("@/modules/landing/LandingPage.vue"), meta: { public: true } },
 
         { path: "/dashboard", name: "dashboard", component: () => import("@/modules/dashboard/DashboardPage.vue"), meta: { requiresAuth: true } },
 
@@ -38,12 +38,17 @@ const router = createRouter({
 
 router.beforeEach(async (to) => {
     const auth = useAuthStore()
-    if (!auth.initialized) {
-        await auth.init()
-    }
+    if (!auth.initialized) await auth.init()
+
+    // Public pages — always accessible
+    if (to.meta.public) return
+
+    // Auth-required pages
     if (to.meta.requiresAuth && !auth.isAuthenticated) {
         return { name: "login", query: { redirect: to.fullPath } }
     }
+
+    // Guest-only pages — redirect logged-in users
     if (to.meta.guestOnly && auth.isAuthenticated) {
         return { name: "dashboard" }
     }

@@ -361,5 +361,51 @@
         "install_message": "Add to your home screen for quick access.",
         "install_button": "Install",
         "later": "Later"
+    },
+    "landing": {
+        "meta_title": "CRM for Modern Teams",
+        "meta_description": "Koshino CRM helps you track deals, manage pipelines, and grow revenue — with a modern interface and full multi-language support.",
+        "sign_in": "Sign in",
+        "get_started": "Get started",
+        "badge": "Free to start",
+        "hero_title": "The CRM that closes deals, not tabs",
+        "hero_subtitle": "Manage your entire sales pipeline, contacts, and projects in one place. Modern, fast, and available in Persian, English, and Arabic.",
+        "cta_primary": "Start free",
+        "cta_secondary": "Sign in",
+        "trust": {
+            "no_credit": "No credit card required",
+            "setup": "Set up in under a minute"
+        },
+        "features_title": "Everything you need to sell",
+        "features_subtitle": "Purpose-built for software agencies, consultancies, and services businesses.",
+        "features": {
+            "pipeline": {
+                "title": "Drag-and-drop pipeline",
+                "body": "Move deals across stages with a click. Watch revenue and forecasts update in real time."
+            },
+            "companies": {
+                "title": "Companies & contacts",
+                "body": "Every client, every person, every conversation — organized and searchable."
+            },
+            "contacts": {
+                "title": "Team collaboration",
+                "body": "Assign owners, share notes, log every call and email. Nothing gets lost."
+            },
+            "dashboard": {
+                "title": "Live dashboard",
+                "body": "KPIs, revenue trends, and funnel metrics — visible at a glance."
+            },
+            "multilang": {
+                "title": "Multi-language & RTL",
+                "body": "Full support for Persian, English, and Arabic — with native right-to-left layout."
+            },
+            "security": {
+                "title": "Enterprise-grade security",
+                "body": "HttpOnly JWT, CSRF protection, per-organization isolation, and full audit logs."
+            }
+        },
+        "cta_title": "Ready to grow your pipeline?",
+        "cta_subtitle": "Join teams who close more deals with Koshino.",
+        "rights": "All rights reserved."
     }
 }
