@@ -6,7 +6,10 @@ import { useRouter } from "vue-router"
 import { Avatar } from "@/shared/components/ui/avatar"
 import { useAuthStore } from "@/core/stores/auth"
 import { useOrganizationStore } from "@/core/stores/organization"
+import { useQueryClient } from "@tanstack/vue-query"
 
+
+const queryClient = useQueryClient()
 const auth = useAuthStore()
 const orgStore = useOrganizationStore()
 const router = useRouter()
@@ -22,6 +25,7 @@ const displayName = computed(() => {
 async function logout() {
   await auth.logout()
   orgStore.clear()
+  queryClient.clear()
   router.push({ name: "login" })
 }
 

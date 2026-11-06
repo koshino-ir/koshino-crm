@@ -81,13 +81,23 @@ function onUpdate(event: { newIndex?: number }) {
       :animation="200"
       :delay="100"
       :delay-on-touch-only="false"
-      ghost-class="opacity-40"
-      drag-class="rotate-1 shadow-lg"
+      ghost-class="dragging-ghost"
+      drag-class="dragging"
       class="flex min-h-[120px] flex-1 flex-col gap-2 overflow-y-auto p-2"
       @add="onAdd"
       @update="onUpdate"
     >
       <DealCard v-for="deal in deals" :key="deal.id" :deal="deal" />
-    </VueDraggable>
+</VueDraggable>
   </div>
 </template>
+
+<style scoped>
+  .dragging-ghost {
+    opacity: 0.4;
+  }
+  .dragging {
+    transform: rotate(1.5deg);
+    box-shadow: 0 8px 24px -4px rgba(79, 70, 229, 0.25);
+  }
+</style>

@@ -54,8 +54,13 @@ export const useAuthStore = defineStore("auth", () => {
     async function logout(): Promise<void> {
         try {
             await authApi.logout()
+        } catch {
+            // Ignore network/401 errors — clear local state regardless.
+            // The server-side cookie deletion may fail, but the UI must
+            // transition to logged-out state so the user isn't stuck.
         } finally {
             user.value = null
+            initialized.value = false
         }
     }
 
